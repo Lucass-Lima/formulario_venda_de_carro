@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+}
+
+body {
+
+    background-color: rgb(50, 50, 50);
+}
+
+h1, h2, h3, h4, h5 {
+
+    color: rgb(250, 250, 250);
+}
+
+p, label {
+
+    color: rgb(250, 250, 250);
+}
+
+input {
+
+    border: none;
+    border-bottom: 1px solid rgb(100, 100, 100);
+    padding: 10px 0;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="file"],
+textarea {
+
+    width: 400px;
+}
+
+textarea {
+
+    padding: 10px 5px;
+}
+
+/* Page Header */
+.header {
+
+    height: 160px;
+    padding: 20px;
+    background-color: rgb(255, 210, 105);
+}
+.header h3 {
+
+    margin-top: 0;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    text-shadow: 2px 2px 2px rgb(10, 10, 10);
+}
+
+/* Form Container */
+.form_container {
+
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: -62px;
+    background-color: rgb(80, 80, 80);
+}
+
+/* Form Header */
+.form_header {
+
+    height: 45px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.form_header p {
+
+    width: 100px;
+    height: 45px;
+    line-height: 45px;
+    margin: 0 auto;
+    color: rgb(255, 210, 105);
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 2px solid rgb(255, 210, 105);
+}
+
+/* Form Body */
+.form_body {
+
+    padding: 30px;
+}
+
+.form_tittle {
+
+    margin-bottom: 15px;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px rgb(10, 10, 10);
+}
+
+.form_body p {
+
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.required_field {
+
+    color: rgb(250, 10, 10);
+}
+
+.box_inputs {
+
+    margin-bottom: 35px;
+}
+.box_inputs label {
+
+    font-size: 20px;
+    text-shadow: 2px 2px 2px rgb(10, 10, 10);
+}
+
+.shadow {
+
+    text-shadow: 2px 2px 2px rgb(10, 10, 10);
+}
+
+#manual, #auto {
+
+    text-shadow: none;
+}
+
+.block {
+
+    display: block;
+}
+
+.optional_box {
+
+    margin: 0 30px 30px 0;
+    display: inline-block;
+}
+
+.optional_box li {
+
+    margin-bottom: 5px;
+    font-size: 18px;
+    list-style: none;
+}
+
+.box_input p {
+
+    margin-bottom: 15px;
+}
+
+.btn_submit {
+
+    width: 150px;
+    height: 50px;
+    color: rgb(250, 250, 250);
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgb(10, 10, 10);
+    background-color: rgb(255, 210, 105);
+    border: 4px solid transparent;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn_submit:hover {
+
+    color: rgb(255, 210, 105);
+    background-color: rgb(80, 80, 80);
+    border: 4px double rgb(255, 210, 105);
+}
+
